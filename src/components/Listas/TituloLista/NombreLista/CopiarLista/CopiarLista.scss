@@ -1,0 +1,23 @@
+@import '../../../../../colors.scss';
+
+.titulo-copiar-lista{
+    color:$oscuro;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.copiar-lista-textarea{
+    all:unset;
+    text-align:top;
+    width: 100%;
+    height: 4em;
+    margin:0.5em 0 0 0;
+    background-color: $muyclaro;
+    padding: 0.4em;
+    border-radius: 3px;
+    border:solid 2px rgb(56, 56, 253);
+    //HACE QUE EL PADDING NO AFECTE AL WIDTH
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}

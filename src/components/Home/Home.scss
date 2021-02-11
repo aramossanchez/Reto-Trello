@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import '../../colors.scss';
+
+.contenedor-home{
+    background-color: rgb(240, 240, 240);
+    color:black;
+    font-size: 200%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.home{
+    padding-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    .titulo-home{
+        color:grey;
+        font-size: 55%;
+        font-weight: bold;
+    }
+}
+
+.contenedor-lista-tableros-home{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lista-tableros-home{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+.tablero-home{
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+    font-size: 55%;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 0.6em;
+    padding: 0.25em;
+    transition: 0.4s;
+    overflow:auto;
+    white-space:nowrap;
+}
+
+.tablero-home::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.tablero-home::-webkit-scrollbar:vertical {
+    width:5px;
+}
+
+.tablero-home::-webkit-scrollbar-button:increment,.tablero-home::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.tablero-home::-webkit-scrollbar:horizontal {
+    height: 5px;
+}
+
+.tablero-home::-webkit-scrollbar-thumb {
+    background-color: #797979cb;
+    border-radius: 20px;
+    border: 2px solid #9b999933;
+}
+
+.tablero-home::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+.tablero-home:hover{
+    filter: brightness(1.25);
+    background-color: rgba(172, 172, 172, 0.5);
+}
+
+.miniatura-tablero{
+    min-width: 1.5em;
+    max-width: 1.5em;
+    min-height: 1.5em;
+    max-height: 1.5em;
+    margin-right: 0.5em;
+    border-radius: 10px;
+    background-color: $oscuro;
+}
+
+.imagen-home{
+    text-align: center;
+    width: 50%;
+    font-size: 75%;
+    border: solid 1px rgba(187, 187, 187,0.5);
+    padding: 0.5em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #666;
+    height: auto;
+}
+
+.crear-tablero-home{
+    width:15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-crear-tablero-home{
+    font-size: 60%;
+    color:rgb(153, 153, 153);
+    padding: 0.2em;
+    border-radius: 6px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.boton-crear-tablero-home:hover{
+    filter: brightness(1.25);
+    background-color: rgba(172, 172, 172, 0.5);
+    color:rgb(37, 37, 37);
+}

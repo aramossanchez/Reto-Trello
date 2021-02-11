@@ -1,0 +1,28 @@
+@import '../../../../colors.scss';
+
+.cerrar-añadir-tarjeta{
+    all:unset;
+    margin-left:0.5em;
+    opacity: 80%;
+    cursor: pointer;
+    padding:0.2em;
+    border-radius: 3em;
+    font-size: 80%;
+}
+
+.cerrar-añadir-tarjeta:hover{
+    opacity: 100%;
+}
+
+.añadir{
+    all: unset;
+    background-color: $boton;
+    color: $muyclaro;
+    border-radius: 3px;
+    padding: 6px 12px;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+.añadir:hover{
+    filter:brightness(1.05);
+}

@@ -1,0 +1,65 @@
+.contenedor-creando-tablero{
+    position: absolute;
+    width: 100%;
+    min-height: 1500px;
+    z-index:3;
+    background-color: rgba(10, 10, 10, 0.9);
+    top:0;
+    font-weight: bold;
+    font-size: 90%;
+    color: #A4A4A4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .creando-tablero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:5em;
+        width: 25em;
+        height: 9.5em;
+        background-color: rgba(100, 100, 100, 0.7);
+        border-radius: 3px;
+        .cerrar-tablero{
+            align-self: stretch;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: white;
+            margin-bottom: 1em;
+            padding:0.5em;
+            cerrar-mover-tarjetas{
+                filter: brightness(0.5);
+            }
+            cerrar-mover-tarjetas:hover{
+                filter:brightness(1);
+            }
+        }
+        input{
+            all:unset;
+            width: 23em;
+            height:2em;
+            background-color: rgba(50, 50, 50, 0.7);
+            border-radius: 3px;
+            text-align: left;
+            padding: 0.2em;
+            margin-bottom: 0.2em;
+        }
+        button{
+            width: 7em;
+        }
+    }
+}
+
+.boton-añadir-tablero{
+    all: unset;
+    background-color: #5aac44;
+    color: white;
+    border-radius: 3px;
+    padding: 6px 12px;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+.boton-añadir-tablero:hover{
+    filter:brightness(1.05);
+}

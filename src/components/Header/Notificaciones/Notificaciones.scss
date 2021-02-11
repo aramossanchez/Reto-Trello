@@ -1,0 +1,36 @@
+.titulo-notificaciones-general{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 90%;
+    color: #A4A4A4;
+    padding:0.5em;
+    cursor:default;
+}
+
+.notificaciones{
+    position:absolute;
+    right:0.5em;
+    top:2.5em;
+    font-weight: normal;
+    color:#172b4d;
+    background-color: #F5F5F5;
+    z-index:2;
+    border-radius: 3px;
+    text-align: left;
+    width: 18em;
+}
+
+.titulo-notificaciones{
+    background-color: rgb(231, 231, 231);
+    padding:0.5em;
+}
+
+.notificacion{
+    background-color: black;
+    color:greenyellow;
+    padding: 0.5em;
+    overflow-wrap:break-word;
+}

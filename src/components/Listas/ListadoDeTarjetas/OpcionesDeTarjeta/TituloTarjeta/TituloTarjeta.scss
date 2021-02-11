@@ -1,0 +1,28 @@
+@import '../../../../../colors.scss';
+
+.tituloyboton-editando{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opciones .nombre-tarjeta:hover{
+    cursor: pointer;
+}
+.opciones-titulo-tarjeta{
+    font-size: 150%;
+    font-weight: bold;
+    padding-left:0.1em;
+    overflow-wrap:anywhere;
+}
+
+.cerrar-opciones-tarjeta{
+    all:unset;
+    border-radius: 3em;
+    padding:0.4em;
+    font-size: 80%;
+}
+
+.cerrar-opciones-tarjeta:hover{
+    filter: brightness(0.5);
+}

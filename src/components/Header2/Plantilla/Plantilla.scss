@@ -1,0 +1,58 @@
+.seleccionar-tablero{
+    background-color: rgba(100,100,100,0.45);
+    border-radius: 3px;
+    cursor: pointer;
+    padding:0.5em;
+    margin-right: 0.5em;
+    transition: 0.2s;
+}
+
+.seleccionar-tablero:hover{
+    background-color: rgba(75,75,75,0.45);
+}
+
+.seleccionar-tablero img{
+    width:1em;
+}
+
+.opciones-tablero{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top:2.8em;
+    z-index: 2;
+    border-radius: 5px;
+    width:18em;
+    background-color: white;
+    color:black;
+}
+
+.opciones-tablero span{
+    cursor: pointer;
+    border-radius: 3px;
+    padding:0.5em;
+    font-size: 90%;
+    p{
+        font-size:80%;
+    }
+    input{
+        all:unset;
+        font-size:80%;
+    }
+}
+
+.opciones-tablero span:hover{
+    background-color: #c5c2c2;
+}
+
+.opciones-tablero .alerta-opciones-tablero{
+    text-align: center;
+    font-size: 80%;
+    font-weight: bold;
+    color: yellow;
+    background-color: black;
+}
+
+.opciones-tablero .alerta-opciones-tablero:hover{
+    background-color: black;
+}

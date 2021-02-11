@@ -1,0 +1,13 @@
+@import '../../colors.scss';
+
+.contenedor-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding:0.5em;
+    margin:0.5em;
+    color:white;
+    font-size:90%;
+}
+

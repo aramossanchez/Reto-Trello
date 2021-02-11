@@ -1,0 +1,61 @@
+@import '../../../../colors.scss';
+
+.contenedor-tarjeta{
+    position: relative;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: $muyclaro;
+    color:$muyoscuro;
+    padding: 0.5em;
+    margin:0em 0 0.5em 0;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(9,30,66,.25);
+    border-radius: 3px;
+    overflow-wrap:anywhere;
+}
+
+.tarjeta:hover{
+    background-color: $neutro;
+}
+
+.titulo-tarjeta{
+    width: 90%;
+}
+
+.cerrar-tarjeta{
+    all:unset;
+    border-radius: 3em;
+    padding:0.4em;
+    font-size: 65%;
+}
+
+.cerrar-tarjeta:hover{
+    filter: brightness(0.5);
+}
+
+.existe-comentario{
+    margin-right: 14em;
+    border-radius: 5em;
+    padding:0.2em;
+}
+
+@media (max-width:992px){
+    .tarjeta{
+    }
+    .cerrar-tarjeta{
+        padding:0.1em;
+    }
+}
+
+@media (max-width:768px){
+    .tarjeta{
+    }
+    .cerrar-tarjeta{
+        padding:0.1em;
+    }
+}

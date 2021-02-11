@@ -1,0 +1,43 @@
+.contenedor-aceptar-tablero-nuevo{
+    position: absolute;
+    display: flex;
+    position: row;
+    justify-content: center;
+    background-color: rgba(10, 10, 10, 0.9);
+    width: 100%;
+    min-height: 1000px;
+    z-index:300;
+    padding-bottom: 1000px;
+}
+
+.aceptar-tablero-nuevo{
+    display: flex;
+    flex-direction: column;
+    margin-top:5em;
+    border-radius: 3px;
+    background-color:  rgba(100, 100, 100, 0.7);
+    font-weight: bold;
+    font-size: 90%;
+    color: #A4A4A4;
+    cursor: default;
+    width: 28em;
+}
+
+.titulo-tablero-creado{
+    background-color: white;
+}
+
+.nombre-de-tablero-nuevo{
+    color:rgb(124, 250, 66);
+    padding:0.2em;
+    font-weight: bold;
+    font-size: 120%;
+    border-radius: 6px;
+    overflow-wrap:anywhere;
+}
+
+.boton-activar-tablero{
+    width:9em;
+    align-self: center;
+    margin-bottom: 1em;
+}

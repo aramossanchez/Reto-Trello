@@ -1,0 +1,31 @@
+@import '../../../colors.scss';
+
+.tarjetas{
+    overflow-y: auto;
+}
+
+.tarjetas::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.tarjetas::-webkit-scrollbar:vertical {
+    width:5px;
+}
+
+.tarjetas::-webkit-scrollbar-button:increment,.tarjetas::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.tarjetas::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.tarjetas::-webkit-scrollbar-thumb {
+    background-color: #797979cb;
+    border-radius: 20px;
+    border: 2px solid #9b999933;
+}
+
+.tarjetas::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}

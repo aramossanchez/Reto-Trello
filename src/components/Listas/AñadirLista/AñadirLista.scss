@@ -1,0 +1,89 @@
+@import '../../../colors.scss';
+
+.abrir-lista{
+    all:unset;
+    background-color: $neutro;
+    color:$muyclaro;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    border-radius: 3px;
+    min-width: 272px;
+    margin-top: 5.2em;
+    margin-right: 0.5em;
+    margin-bottom:0.5em;
+    opacity: 70%;
+    //HACE QUE EL PADDING NO AFECTE AL WIDTH
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+.abrir-lista:hover{
+    opacity: 80%;
+    filter:brightness(1.15);
+}
+
+.crear-lista{
+    min-width: 272px;
+    max-width: 272px;
+    background-color: $claro;
+    color:$muyoscuro;
+    padding:0.5em;
+    margin-top: 5.8em;
+    margin-right: 0.5em;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+.cerrar-añadir-lista{
+    all:unset;
+    border-radius: 3em;
+    padding:0.4em;
+    font-size: 80%;
+}
+
+.cerrar-añadir-lista:hover{
+    filter: brightness(0.5);
+}
+
+@media (max-width:992px){
+    .abrir-lista{
+        margin-top: 6.8em;
+        min-width: 178px;
+        max-width: 178px;
+        font-size: 80%;
+    }
+    .crear-lista{        
+        margin-top: 6.8em;
+        min-width: 178px;
+        max-width: 178px;
+        font-size: 80%;
+    }
+}
+
+@media (max-width:768px){
+    .abrir-lista{
+        margin-top: 6em;
+        min-width: 240px;
+        max-width: 240px;
+        font-size: 90%;
+    }
+    .crear-lista{        
+        margin-top: 6.8em;
+        min-width: 240px;
+        max-width: 240px;
+        font-size: 80%;
+    }
+}
+
+@media (max-width:600px){
+    .abrir-lista{
+        min-width: 400px;
+        max-width: 400px;
+        font-size: 85%;
+    }
+    .crear-lista{        
+        margin-top: 6em;
+        min-width: 400px;
+        max-width: 400px;
+        font-size: 85%;
+    }
+}

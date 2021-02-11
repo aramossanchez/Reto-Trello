@@ -1,0 +1,42 @@
+.titulo-informacion-general{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 90%;
+    color: #A4A4A4;
+    padding:0.5em;
+    cursor:default;
+}
+
+.informacion{
+    position:absolute;
+    right:0.5em;
+    top:2.5em;
+    font-weight: normal;
+    color:#172b4d;
+    background-color: #F5F5F5;
+    z-index:2;
+    border-radius: 3px;
+    text-align: left;
+    width: 18em;
+}
+
+.descripcion-informacion{
+    font-size: 90%;
+    padding:0.5em;
+    transition: 0.6s;
+    cursor: default;
+}
+
+.descripcion-informacion:hover{
+    background-color: rgb(114, 114, 114);
+    color:white;
+    font-size: 90%;
+}
+
+.titulo-informacion{
+    background-color: rgb(231, 231, 231);
+    padding:0.5em;
+}

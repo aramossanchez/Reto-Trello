@@ -1,0 +1,68 @@
+@import './colors.scss';
+
+
+.App{
+    height: 100%;
+    background-color:$oscuro;
+    overflow: auto;
+}
+
+.contenedor-fijar-header{
+    position:fixed;
+    width: 100%;
+    z-index:2;
+}
+
+.noche{
+    background-image: url(./images/noche.jpg);
+    background-size:cover;
+}
+
+.anochecer{
+    background-image: url(./images/anochecer.jpg);
+    background-size: cover;
+}
+
+.playa{
+    background-image: url(./images/playa.jpg);
+    background-size: cover;
+}
+
+.yasuo{
+    background-image: url(./images/yasuo.jpg);
+    background-size: cover;
+}
+
+.ciudad{
+    background-image: url(./images/ciudad.jpg);
+    background-size: cover;
+}
+
+.campo{
+    background-image: url(./images/campo.jpg);
+    background-size: cover;
+}
+
+.nevado{
+    background-image: url(./images/nevado.jpg);
+    background-size: cover;
+}
+
+.puerto{
+    background-image: url(./images/puerto.jpg);
+    background-size: cover;
+}
+
+.circuloneon{
+    background-image: url(./images/circuloneon.jpg);
+    background-size: cover;
+}
+
+.kamehouse{
+    background-image: url(./images/kamehouse.png);
+    background-size: cover;
+}
+
+.App .contenedor{
+    padding:0.5em
+}

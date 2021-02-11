@@ -1,0 +1,22 @@
+@import '../../../../colors.scss';
+
+.cambiar-lista{
+    all:unset;
+    font-weight: bold;
+    width: 85%;
+    height: 0.9em;
+    margin-bottom:0.2em;
+    background-color: $muyclaro;
+    padding: 0.4em;
+    border-radius: 3px;
+    border:solid 2px rgb(56, 56, 253);
+}
+
+.cambiando-lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    input{
+        width: 77%;
+    }
+}
