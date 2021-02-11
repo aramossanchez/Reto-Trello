@@ -13,7 +13,7 @@ Uso las siguientes tecnologías:
 
 ## -FUNCIONAMIENTO DE LA APLICACION
 
-Para organizar y gestionar las tareas, uso Tableros, Listas y Tareas:
+Para organizar y gestionar las tareas, uso Tableros, Listas y Tarjetas:
 
 **TABLEROS**
 
