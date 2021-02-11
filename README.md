@@ -48,6 +48,6 @@ Las tarjetas permiten:
 ##### -Añadir descripción
 ##### -Cambiar su color
 
-**Todos los cambios que realices en la aplicación se guardarán automaticamente en tu navegador, por lo que nunca perderás los datos guardados (puedes actualizar la página, cerrar la pestaña en donde tiene abierta la aplicación e incluso cerrar el navegador).**
+**Todos los cambios que realices en la aplicación se guardarán automaticamente en tu navegador, por lo que nunca perderás los datos guardados (puedes actualizar la página, cerrar la pestaña en donde está abierta la aplicación e incluso cerrar el navegador).**
 
 
