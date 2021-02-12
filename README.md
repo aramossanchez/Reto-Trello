@@ -98,4 +98,7 @@ Las tarjetas permiten:
 * Añadir descripción
 * Cambiar su color
 
+**YA SOLO FALTA QUE EXPLORES POR TODOS LOS BOTONES Y RINCONES DE LA APLICACIÓN PARA DESCUBRIR TODO LO QUE PUEDES HACER**
 
+## -OBSERVACIONES FINALES
+Indicar, ya para finalizar, que ha sido el proyecto más entretenido y desafiante de todos los que se me han propuesto en Geeks Hubs Academy hasta la fecha. Ha sido apasionante ir desarrollando paso a paso esta aplicación, e ir descubriendo poco a poco la potencia de react.
