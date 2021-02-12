@@ -2,19 +2,20 @@
 
 Realizo una aplicación de gestión de tareas (una versión sencilla de la aplicación Trello).
 
-Uso las siguientes tecnologías:
+## -USO DE LA APP
 
-##### -HTML5/CSS3/SCSS/FLEXBOX/GRIDLAYOUT
-##### -REACT
-##### -REDUX
-##### -ES6
-##### -BOOTSTRAP
-##### -GIT
+Esto es lo que tienes que hacer para poder poner a funcionar la aplicación en tu equipo.
 
-## -INSTALACIÓN
+### -PRE-REQUISITOS
 
-Primero, necesitamos tener instalado nodejs
-Tras esto, necesitamos tener habilitada la ejecución de scripts en nuestro sistema (para ello, ejecutamos como administrador la aplicación PowerShell, y escribimos el siguiente comando: Set-ExecutionPolicy -ExecutionPolicy Unrestricted, e indicamos que Sí
+_Necesitas tener instalado NODEJS_
+_Necesitas tener habilitada la ejecución de scripts en tu sistema (Windows). Para ello, ejecutamos como administrador la aplicación PowerShell, y escribimos el siguiente comando:_ 
+```
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted, e indicamos que Sí
+```
+  
+### -INSTALACIÓN
+Tras esto, 
 Ahora instalaremos Yarn: npm install --global yarn
 Instalamos react: npx create-react-app Reto-Trello
 Instalamos react router: yarn add react-router-dom axios
@@ -24,7 +25,14 @@ Instalamos redux: npm install redux
 
 Sustituimos las carpetas src y public de nuestro directorio donde hemos creado el proyecto por las carpetas src y public de este repositorio
 
+Uso las siguientes tecnologías:
 
+##### -HTML5/CSS3/SCSS/FLEXBOX/GRIDLAYOUT
+##### -REACT
+##### -REDUX
+##### -ES6
+##### -BOOTSTRAP
+##### -GIT
 
 
 
