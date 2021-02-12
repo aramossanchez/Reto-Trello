@@ -25,7 +25,7 @@ _Necesitas tener habilitada la ejecución de scripts en tu sistema (Windows). Pa
 ```
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ```
-_e indicamos que Sí ante la pregunta que nos muestra el PowerShell
+_e indicamos que Sí ante la pregunta que nos muestra el PowerShell_
   
 ### -INSTALACIÓN
 
