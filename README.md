@@ -19,11 +19,9 @@ _Esto es lo que tienes que hacer para poder poner a funcionar la aplicación en 
 ### -PRE-REQUISITOS
 
 _Necesitas tener instalado NODEJS_
+
 _Necesitas tener habilitada la ejecución de scripts en tu sistema (Windows). Para ello, ejecutamos como administrador la aplicación PowerShell, y escribimos el siguiente comando:_ 
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
 ```
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ```
