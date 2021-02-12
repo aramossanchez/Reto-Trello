@@ -2,7 +2,17 @@
 
 _Realizo una aplicación de gestión de tareas (una versión sencilla de la aplicación Trello)._
 
-## -USO DE LA APP
+## -TECNOLOGÍAS UTILIZADAS
+
+
+* HTML5/CSS3/SCSS/FLEXBOX/GRIDLAYOUT
+* REACT
+* REDUX
+* ES6
+* BOOTSTRAP
+* GIT
+
+## -PASOS PARA HACER FUNCIONAR LA APLICACIÓN
 
 _Esto es lo que tienes que hacer para poder poner a funcionar la aplicación en tu equipo._
 
@@ -16,6 +26,7 @@ Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 _e indicamos que Sí ante la pregunta que nos muestra el PowerShell
   
 ### -INSTALACIÓN
+
 _Instalamos Yarn:_
 ```
 npm install --global yarn
@@ -44,16 +55,6 @@ npm install redux
 ### -DESCARGA
 
 _Sustituimos las carpetas src y public de nuestro directorio donde hemos creado el proyecto por las carpetas src y public de este repositorio_
-
-Uso las siguientes tecnologías:
-
-##### -HTML5/CSS3/SCSS/FLEXBOX/GRIDLAYOUT
-##### -REACT
-##### -REDUX
-##### -ES6
-##### -BOOTSTRAP
-##### -GIT
-
 
 
 ## -FUNCIONAMIENTO DE LA APLICACION
