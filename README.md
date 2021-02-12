@@ -68,12 +68,12 @@ Para organizar y gestionar las tareas, uso Tableros, Listas y Tarjetas:
 Es la forma básica de presentar los datos. En ellos es donde se crearán las listas y las tarjetas.
 Cada tablero es independiente de los demás.
 Los tableros permiten:
-##### -Cambiar el nombre
-##### -Elegir que tablero mostrar entre los que tenemos creados
-##### -Cambiar la imagen de fondo
-##### -Borrar tableros (siempre que no sea el tablero activo)
-##### -Crear tableros nuevos
-##### -Crear listas en ellos
+* Cambiar el nombre
+* Elegir que tablero mostrar entre los que tenemos creados
+* Cambiar la imagen de fondo
+* Borrar tableros (siempre que no sea el tablero activo)
+* Crear tableros nuevos
+* Crear listas en ellos
 
 **LISTAS**
 
@@ -95,7 +95,5 @@ Las tarjetas permiten:
 * Borrar la tarjeta
 * Añadir descripción
 * Cambiar su color
-
-**BOTONES DE LA BARRA SUPERIOR**
 
 
