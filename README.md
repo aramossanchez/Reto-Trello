@@ -1,29 +1,49 @@
 # Reto 3 FRONTEND - Trello
 
-Realizo una aplicación de gestión de tareas (una versión sencilla de la aplicación Trello).
+_Realizo una aplicación de gestión de tareas (una versión sencilla de la aplicación Trello)._
 
 ## -USO DE LA APP
 
-Esto es lo que tienes que hacer para poder poner a funcionar la aplicación en tu equipo.
+_Esto es lo que tienes que hacer para poder poner a funcionar la aplicación en tu equipo._
 
 ### -PRE-REQUISITOS
 
 _Necesitas tener instalado NODEJS_
 _Necesitas tener habilitada la ejecución de scripts en tu sistema (Windows). Para ello, ejecutamos como administrador la aplicación PowerShell, y escribimos el siguiente comando:_ 
 ```
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted, e indicamos que Sí
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ```
+_e indicamos que Sí ante la pregunta que nos muestra el PowerShell
   
 ### -INSTALACIÓN
-Tras esto, 
-Ahora instalaremos Yarn: npm install --global yarn
-Instalamos react: npx create-react-app Reto-Trello
-Instalamos react router: yarn add react-router-dom axios
-instalamos scss: yarn add node-sass@4.14.1
-Instalamos bootstrap: npm install bootstrap
-Instalamos redux: npm install redux
+_Instalamos Yarn:_
+```
+npm install --global yarn
+```
+_Instalamos react:_
+```
+npx create-react-app Reto-Trello
+```
+_Instalamos react router:_
+```
+yarn add react-router-dom axios
+```
+_instalamos scss:_
+```
+yarn add node-sass@4.14.1
+```
+_Instalamos bootstrap:_
+```
+npm install bootstrap
+```
+_Instalamos redux:_
+```
+npm install redux
+```
 
-Sustituimos las carpetas src y public de nuestro directorio donde hemos creado el proyecto por las carpetas src y public de este repositorio
+### -DESCARGA
+
+_Sustituimos las carpetas src y public de nuestro directorio donde hemos creado el proyecto por las carpetas src y public de este repositorio_
 
 Uso las siguientes tecnologías:
 
