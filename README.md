@@ -1,6 +1,6 @@
 # Reto 3 FRONTEND - Trello
 
-_Realizo una aplicación de gestión de tareas (una versión sencilla de la aplicación Trello)._
+_Realizo una aplicación de gestión de tareas (una versión sencilla de la aplicación Trello)_
 
 ## -TECNOLOGÍAS UTILIZADAS
 
@@ -14,7 +14,7 @@ _Realizo una aplicación de gestión de tareas (una versión sencilla de la apli
 
 ## -PASOS PARA HACER FUNCIONAR LA APLICACIÓN
 
-_Esto es lo que tienes que hacer para poder poner a funcionar la aplicación en tu equipo._
+_Esto es lo que tienes que hacer para poder poner a funcionar la aplicación en tu equipo_
 
 ### -PRE-REQUISITOS
 
@@ -25,7 +25,7 @@ _Necesitas tener habilitada la ejecución de scripts en tu sistema (Windows). Pa
 ```
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 ```
-_e indicamos que Sí ante la pregunta que nos muestra el PowerShell_
+_e indicamos que "Sí" ante la pregunta que nos muestra el PowerShell_
   
 ### -INSTALACIÓN
 
@@ -56,14 +56,14 @@ npm install redux
 
 ### -DESCARGA
 
-_Sustituimos las carpetas src y public de nuestro directorio donde hemos creado el proyecto por las carpetas src y public de este repositorio_
+_Sustituimos las carpetas "src" y "public" del directorio donde acabamos de crear el proyecto de react por las carpetas "src" y "public" de este repositorio_
 
 
 ## -FUNCIONAMIENTO DE LA APLICACION
 
-_Todos los cambios que realices en la aplicación se guardarán automaticamente en tu navegador, por lo que nunca perderás los datos guardados (puedes actualizar la página, cerrar la pestaña en donde está abierta la aplicación e incluso cerrar el navegador)._
+**Todos los cambios que realices en la aplicación se guardarán automaticamente en tu navegador, por lo que nunca perderás los datos guardados (puedes actualizar la página, cerrar la pestaña en donde está abierta la aplicación e incluso cerrar el navegador)**
 
-Para organizar y gestionar las tareas, uso Tableros, Listas y Tarjetas:
+_Para organizar y gestionar las tareas, uso Tableros, Listas y Tarjetas:_
 
 **TABLEROS**
 
