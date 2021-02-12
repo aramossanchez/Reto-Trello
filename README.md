@@ -59,6 +59,8 @@ _Sustituimos las carpetas src y public de nuestro directorio donde hemos creado 
 
 ## -FUNCIONAMIENTO DE LA APLICACION
 
+_Todos los cambios que realices en la aplicación se guardarán automaticamente en tu navegador, por lo que nunca perderás los datos guardados (puedes actualizar la página, cerrar la pestaña en donde está abierta la aplicación e incluso cerrar el navegador)._
+
 Para organizar y gestionar las tareas, uso Tableros, Listas y Tarjetas:
 
 **TABLEROS**
@@ -77,23 +79,23 @@ Los tableros permiten:
 
 Es la forma en la que agrupamos las tarjetas dentro de cada tablero. Podemos agregar tantas listas como queramos en nuestros tableros.
 Las listas permiten:
-##### -Cambiar el nombre
-##### -Añadir tarjetas en ellas
-##### -Copiar la lista y todo su contenido
-##### -Cambiar la lista de posición
-##### -Borrar la lista
+* Cambiar el nombre
+* Añadir tarjetas en ellas
+* Copiar la lista y todo su contenido
+* Cambiar la lista de posición
+* Borrar la lista
 
 **TARJETAS**
 
 Es como denominamos a cada tarea. Las tarjetas se crean en las listas.
 Las tarjetas permiten:
-##### -Cambiar el nombre
-##### -Cambiar la tarjeta de posición en la lista en la que está creada
-##### -Cambiar la tarjeta de lista
-##### -Borrar la tarjeta
-##### -Añadir descripción
-##### -Cambiar su color
+* Cambiar el nombre
+* Cambiar la tarjeta de posición en la lista en la que está creada
+* Cambiar la tarjeta de lista
+* Borrar la tarjeta
+* Añadir descripción
+* Cambiar su color
 
-**Todos los cambios que realices en la aplicación se guardarán automaticamente en tu navegador, por lo que nunca perderás los datos guardados (puedes actualizar la página, cerrar la pestaña en donde está abierta la aplicación e incluso cerrar el navegador).**
+**BOTONES DE LA BARRA SUPERIOR**
 
 
