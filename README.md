@@ -11,6 +11,23 @@ Uso las siguientes tecnologías:
 ##### -BOOTSTRAP
 ##### -GIT
 
+## -INSTALACIÓN
+
+Primero, necesitamos tener instalado nodejs
+Tras esto, necesitamos tener habilitada la ejecución de scripts en nuestro sistema (para ello, ejecutamos como administrador la aplicación PowerShell, y escribimos el siguiente comando: Set-ExecutionPolicy -ExecutionPolicy Unrestricted, e indicamos que Sí
+Ahora instalaremos Yarn: npm install --global yarn
+Instalamos react: npx create-react-app Reto-Trello
+Instalamos react router: yarn add react-router-dom axios
+instalamos scss: yarn add node-sass@4.14.1
+Instalamos bootstrap: npm install bootstrap
+Instalamos redux: npm install redux
+
+Sustituimos las carpetas src y public de nuestro directorio donde hemos creado el proyecto por las carpetas src y public de este repositorio
+
+
+
+
+
 ## -FUNCIONAMIENTO DE LA APLICACION
 
 Para organizar y gestionar las tareas, uso Tableros, Listas y Tarjetas:
