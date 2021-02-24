@@ -35,7 +35,7 @@ npm install --global yarn
 ```
 _Instalamos react:_
 ```
-npx create-react-app Reto-Trello
+npx create-react-app reto-trello
 ```
 _Instalamos react router:_
 ```
