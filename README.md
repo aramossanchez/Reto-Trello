@@ -41,7 +41,7 @@ _Instalamos react router:_
 ```
 yarn add react-router-dom axios
 ```
-_instalamos scss:_
+_Instalamos scss:_
 ```
 yarn add node-sass@4.14.1
 ```
