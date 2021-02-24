@@ -54,7 +54,7 @@ npm install bootstrap
 ```
 _Instalamos redux:_
 ```
-npm install redux
+npm install --save redux react-redux
 ```
 
 ### -DESCARGA
