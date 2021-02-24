@@ -37,6 +37,9 @@ _Instalamos react:_
 ```
 npx create-react-app reto-trello
 ```
+
+_Accedemos al directorio recién creado y proseguimos con la instalación de componentes:_
+
 _Instalamos react router:_
 ```
 yarn add react-router-dom axios
